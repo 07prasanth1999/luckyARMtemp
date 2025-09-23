@@ -1,0 +1,5 @@
+# keep secrets out of the repo
+parameters.json
+*.key
+*.pem
+*.pub
