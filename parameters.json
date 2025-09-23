@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName":        { "value": "linux-httpd-8080-pwd" },
+    "adminUsername": { "value": "azureuser" },
+    "adminPassword": { "value": "CHANGE_ME" },
+    "location":      { "value": "eastus" },
+    "vmSize":        { "value": "Standard_B1s" },
+    "allowedSourceCidr": { "value": "YOUR.IP.HERE/32" },
+    "domainLabel":   { "value": "pick-a-unique-label" }
+  }
+}
