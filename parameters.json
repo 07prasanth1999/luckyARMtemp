@@ -3,8 +3,8 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmName":        { "value": "linux-httpd-8080" },
-    "adminUsername": { "value": "azureuser" },
-    "adminPassword": { "value": "CHANGE_ME" },
+    "adminUsername": { "value": "test" },
+    "adminPassword": { "value": "Test_ME" },
     "location":      { "value": "eastus" },
     "vmSize":        { "value": "Standard_B1s" },
     "allowedSourceCidr": { "value": "YOUR.IP.HERE/32" },
